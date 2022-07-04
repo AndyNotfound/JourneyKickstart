@@ -1,0 +1,135 @@
+<!-- HTML : Form Introduction -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Latihan 09</title>
+    </head>
+    <body>
+        
+        <!-- form elements input, textarea, select, button, label -->
+        <form action="">
+            
+            <!-- input elements text, password, radio, checkbox, submit, reset, button, etc -->
+
+            <!-- input text -->
+            <label for="username">Username : </label>
+            <input type="text" id="username">
+            
+            <br><br>
+
+            <!-- input password -->
+            <label for="password">Password : </label>
+            <input type="password" id="password">
+
+            <br><br>
+
+            <!-- input radio -->
+            <input type="radio" id="pria" name="jenis-kelamin">
+            <label for="pria"> Pria</label>
+            <input type="radio" id="wanita" name="jenis-kelamin">
+            <label for="wanita"> Wanita</label>
+
+            <br><br>
+
+            <!-- input checkbox -->
+            <input type="checkbox" id="menyanyi">
+            <label for="menyanyi"> Menyanyi</label>
+            <input type="checkbox" id="menari">
+            <label for="menari"> Menari</label>
+            <input type="checkbox" id="berenang">
+            <label for="berenang"> Berenang</label>
+            <input type="checkbox" id="membaca">
+            <label for="membaca"> Membaca</label>
+
+            <br><br>
+
+            <!-- select (dropdown menu) -->
+            <label for="tanggal-lahir">Tanggal Lahir : </label>
+            <select name="tanggal-lahir" id="tanggal-lahir">
+                <option>1000</option>
+                <option>2000</option>
+                <option>3000</option>
+            </select>
+
+            <br><br>
+
+            <!-- textarea -->
+            <textarea></textarea>
+
+            <br><br>
+
+            <!--
+            input type submit (not reccomended)
+            <input type="submit" value="kirim">
+            -->
+            <!-- button submit -->
+            <button type="submit">Kirim!</button>
+
+            <br><br><hr><br><br>
+            
+            <!-- exercise -->
+            <table cellpadding="5">
+                <tr>
+                    <td>
+                        <label for="text">Text</label>
+                    </td>
+                    <td>
+                        <input type="text" id="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="password">Password</label>
+                    </td>
+                    <td>
+                        <input type="password" id="password">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="radio" id="radio1" name="radio">
+                        <label for="pria"> Radio 1</label>
+                        <input type="radio" id="radio2" name="radio">
+                        <label for="wanita"> Radio 2</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="checkbox" id="checkbox1">
+                        <label for="checkbox1"> Checkbox 1</label>
+                        <input type="checkbox" id="checkbox2">
+                        <label for="checkbox2"> Checkbox 2</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="dropdown">Dropdown</label>
+                    </td>
+                    <td>
+                        <select name="dropdown" id="dropdown">
+                            <option>option 1</option>
+                            <option>option 2</option>
+                            <option>option 3</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="textarea">Text Area</label>
+                    </td>
+                    <td>
+                        <textarea id="textarea"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <button type="submit">Button</button>
+                    </td>
+                </tr>
+            </table>
+
+        </form>
+        <!-- form ends-->
+
+    </body>
+</html>

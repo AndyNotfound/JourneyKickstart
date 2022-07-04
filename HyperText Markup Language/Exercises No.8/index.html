@@ -1,0 +1,127 @@
+<!-- HTML : Table Introduction -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Latihan 08</title>
+    </head>
+    <body>
+        
+        <!-- ordinary table -->
+        <table>
+            <tr>
+                <td>baris 1, kolom 1</td>
+                <td>baris 1, kolom 2</td>
+            </tr>
+            <tr>
+                <td>baris 2, kolom 1</td>
+                <td>baris 2, kolom 2</td>
+            </tr>
+        </table>
+
+        <br><br><hr><br><br>
+
+        <!-- complex table -->
+        <table>
+            <thead>
+                <tr>
+                    <th>...</th>
+                    <th>Kolom 1</th>
+                    <th>Kolom 2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Baris 1</th>
+                    <td>Baris 1, Kolom 1</td>
+                    <td>Baris 1, Kolom 2</td>
+                </tr>
+                <tr>
+                    <th>Baris 2</th>
+                    <td>Baris 2, Kolom 1</td>
+                    <td>Baris 2, Kolom 2</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br><br><hr><br><br>
+
+         <!-- ordinary table with border, cellspacing, cellpadding -->
+         <table border="1px" cellspacing="5" cellpadding="5">
+            <tr>
+                <td>baris 1, kolom 1</td>
+                <td>baris 1, kolom 2</td>
+            </tr>
+            <tr>
+                <td>baris 2, kolom 1</td>
+                <td>baris 2, kolom 2</td>
+            </tr>
+        </table>
+
+        <br><br><hr><br><br>
+
+        <!-- table merging with colspan, rowspan property -->
+        <table border="1" cellspacing="0" cellpadding="5">
+            <tr>
+                <td>1, 1</td>
+                <td colspan="2">colspan 2</td>
+            </tr>
+            <tr>
+                <td>2, 1</td>
+                <td>2, 2</td>
+                <td>2, 3</td>
+            </tr>
+            <tr>
+                <td>3, 1</td>
+                <td>3, 2</td>
+                <td>3, 3</td>
+            </tr>
+        </table>
+
+        <br><br><hr><br><br>
+
+         <!-- table merging with rowspan property -->
+         <table border="1" cellspacing="0" cellpadding="5">
+            <tr>
+                <td rowspan="3">1, 1</td>
+                <td>1, 2</td>
+                <td>1, 3</td>
+            </tr>
+            <tr>
+                <td>2, 2</td>
+                <td>2, 3</td>
+            </tr>
+            <tr>
+                <td>3, 2</td>
+                <td>3, 3</td>
+            </tr>
+        </table>
+
+        <br><br><hr><br><br>
+
+        <!-- excercise -->
+        <table border="1" cellpadding="5" cellspacing="0">
+            <tr>
+                <td>1, 1</td>
+                <td>1, 2</td>
+                <td>1, 3</td>
+                <td>1, 4</td>
+            </tr>
+            <tr>
+                <td>2, 1</td>
+                <td colspan="2" rowspan="2"> </td>
+                <td>2, 4</td>
+            </tr>
+            <tr>
+                <td>3, 1</td>
+                <td>3, 4</td>
+            </tr>
+            <tr>
+                <td>4, 1</td>
+                <td>4, 2</td>
+                <td>4, 3</td>
+                <td>4, 4</td>
+            </tr>
+        </table>
+
+    </body>
+</html>
