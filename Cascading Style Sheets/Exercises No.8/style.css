@@ -1,0 +1,19 @@
+/* CSS : Specify Selector Introduction */
+
+#p1{
+/* this id selector is more specified it overwrites the secondary selector */
+    color: red;
+}
+
+p{
+    color: green;
+}
+
+p{
+    color: red;
+}
+
+p{
+/* this secondary p value is overwriting the first one so it turned to green */
+    color: green;
+} 

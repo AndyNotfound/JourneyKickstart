@@ -1,0 +1,8 @@
+/* CSS : Background Styling Introduction */
+
+body{
+    background-color: whitesmoke;
+    background-image: url(pattern.png);
+    */ background-repeat: no-repeat;
+       background-position: absolute; */
+}

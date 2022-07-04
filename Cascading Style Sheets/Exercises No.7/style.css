@@ -1,0 +1,10 @@
+/* CSS : Inheritance Introduction */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: burlywood;
+}
+
+a{
+/* make the "a" follow the parents element value */
+    color: inherit;
+}

@@ -1,0 +1,19 @@
+/* CSS : Text Styling Introduction */
+
+h1{
+    font-size: 100px;
+    color: coral;
+}
+
+p{
+    text-align: justify;
+    text-indent: 100px;
+    text-decoration: none;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+a{
+    text-decoration: none;
+}

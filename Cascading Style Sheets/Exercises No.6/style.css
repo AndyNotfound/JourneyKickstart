@@ -1,0 +1,47 @@
+/* CSS : Pseudo Class Introduction */
+.hello:link{
+/* default */
+    color: orange;
+}
+
+.hello:hover{
+/* works when you hover it */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: green;
+}
+
+.hello:active{
+/* works when it activated */
+    color: rgb(86, 86, 139);
+}
+
+.hello:visited{
+/* works when you already visited it */
+    color: brown;
+}
+
+li:first-child a{
+/* looking for the first child of "li" */ 
+    color: chartreuse;
+}
+
+li:nth-child(3) a{
+/* looking the third child of "li" */
+    color: coral;
+}
+
+li:nth-child(odd) a:hover{
+/* adding "hover" to the "odd child" of "li" */
+    color: red;
+}
+
+p:first-of-type{
+/* looking for the first "p" */
+    color: red;
+}
+
+p:last-of-type{
+/* looking for the last "p" */
+    color: blueviolet;
+}
