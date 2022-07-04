@@ -1,0 +1,424 @@
+    /* global adjustment */
+body{
+    margin: auto;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    line-height: normal;
+}
+
+h1, h2, h3{
+    line-height: normal;
+    padding: 0em;
+    margin: 0em;
+}
+
+ul, li{
+    padding: 0em;
+    margin: 0em;
+}
+
+.container-1{
+    background-color:#49274A;
+    padding: 1em;
+    align-content: center;
+    margin: auto;
+}
+
+.container-2{
+    background-color: whitesmoke;
+    margin: 1em;
+    align-content: center;
+    margin-top: 2em;
+    padding: 1em;
+}
+
+.ongoing-pages h2, .news-pages h2, .animelist-pages h2{
+    padding-left: 1em;
+    font-family: 'Barlow Condensed', sans-serif;
+    background-color: #49274A;
+    color: #F4DECB;
+    padding: 1%;
+    width: 96%;
+    margin: auto;
+}
+
+    /* navigation bar */
+.top-navbar{
+    margin-bottom: 5em;
+}
+
+.top-navbar ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.top-navbar a{
+    color: #F4DECB;
+    font-family: 'Barlow Condensed', sans-serif;
+    margin-left: 1em;
+    font-size: large;
+}
+
+.top-navbar a:hover{
+    background-color: #F4DECB;
+    color: #49274A;
+    padding: 5%;
+    border-radius: 10%;
+}
+
+
+    /* blog header */
+.header-pages{
+    display: flex;
+    justify-content: center;
+    font-family: 'Lobster', cursive;
+    color: #F4DECB;
+    justify-content: space-around;
+}
+
+.main-header p{
+    font-size: xx-large;
+    direction: rtl;
+}
+
+.main-header a{
+    display: block;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: large;
+    justify-content: center;
+    color: #F4DECB;
+    padding: 1%;
+    border: 0em transparent;
+    border-right: 2px solid whitesmoke;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+    padding-right: 1%;
+    margin-top: 1em;
+}
+
+.main-header a:hover{
+    color: rgb(248, 237, 217);
+    border-color: #F4DECB;
+}
+
+.main-header img{
+    width: 15%;
+    padding-bottom: 0em;
+}
+
+
+    /* blog post*/
+.postlist p, .boxnews p{
+    text-align: justify;
+}
+
+.postlist ul{
+    display: flex;
+}
+
+.postlist li{
+    list-style: none;
+    background-color: #F4DECB;
+    padding: 1em;
+    margin: 1em;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.postlist a{
+    color: black;
+}
+
+.postlist li:nth-child(even){
+    background-color: #F8EEE7;
+}
+
+.postlist li:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.boxnews{
+    border: #49274A 1px solid;
+    background-color: rgb(248, 237, 217);
+    list-style: none;
+    margin: 1em;
+    padding: 2em;
+    box-sizing: border-box;
+}
+
+.boxnews h3{
+    padding: 1em 0em;
+}
+
+.boxnews a{
+    margin-top: 1%;
+    background-color: #F4DECB;
+    color: black;
+    padding: 0.5%;
+    border-radius: 5%;
+}
+
+.boxnews:nth-child(even){
+    background-color: #F8EEE7;
+    border: none;
+}
+
+.boxnews a:hover{
+    color: #49274A;
+}
+
+.animelist-pages{
+    background-color: rgb(248, 237, 217);
+    color: black;
+    padding: 1em;
+    margin: auto;
+    width: 96%;
+}
+
+.animelist-pages li{
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.boxlist:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cols ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+.cols a{
+    color: black;
+}
+
+.boxlist{
+    width: 100%;
+    height: 50%;
+    padding: 1em;
+    margin: 1em;
+    background-color: #F4DECB;
+    border: #49274A 1px solid;
+    border-top-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+
+    /* footer */
+footer{
+    text-align: center;
+}
+#main-footer{
+    background-color: #49274A;
+    padding: 1%;
+    color: #F4DECB;
+    margin: auto;
+}
+
+#main-footer a{
+    color: #F4DECB;
+}
+
+#main-footer a:hover{
+    color: #F8EEE7;
+}
+
+
+/* media Qrery */
+@media only screen and (max-width:500px){
+    /* Super Small Screen (I Think this is unnecessary but i make this  just in case) */
+    .container-1{
+        display: none;
+    }
+
+    .top-navbar{
+        display: none;
+    }
+    
+    .header-pages {
+        display: none;
+    }
+    
+    .ongoing-pages{
+        display: none;
+    }
+
+    .news-pages{
+        display: none;
+    }
+
+    .animelist-pages{
+        display: none;
+    }
+
+    footer{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    /* Extra small devices (phones, 600px and down) */
+    .header-pages{
+        display: none;
+    }
+
+    .top-navbar{
+        margin-bottom: 0em;
+    }
+
+    .top-navbar ul{
+        justify-content: flex-start;
+    }
+
+    .postlist ul{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .boxnews a{
+        padding: 2%;
+    }
+
+    .boxnews p{
+        display: none;
+    }
+
+    .animelist-pages ul{
+        flex-wrap: wrap;
+    }
+}
+
+
+@media only screen and (min-width: 600px) {
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    .header-pages{
+        display: none;
+    }
+
+    .top-navbar{
+        margin-bottom: 0em;
+    }
+
+    .top-navbar ul{
+        justify-content: flex-start;
+    }
+
+    .postlist ul{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .boxnews p{
+        display: none;
+    }
+
+    .boxnews a{
+        padding: 1.5%;
+    }
+
+    .animelist-pages ul{
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    /* Medium devices (landscape tablets, 768px and up) */
+    .header-pages{
+        display: none;
+    }
+
+    .top-navbar{
+        margin-bottom: 0em;
+    }
+
+    .top-navbar ul{
+        justify-content: flex-start;
+    }
+
+    .postlist ul{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .boxnews p{
+        display: none;
+    }
+
+    .boxnews a{
+        padding: 1%;
+    }
+
+    .animelist-pages ul{
+        flex-wrap: nowrap;
+    }
+}
+
+
+@media only screen and (min-width: 992px) {
+    /* Large devices (laptops/desktops, 992px and up) */
+    .header-pages{
+    display: flex;
+    justify-content: center;
+    font-family: 'Lobster', cursive;
+    color: #F4DECB;
+    justify-content: space-around;
+    }
+
+    .top-navbar{
+        margin-bottom: 5em;
+    }
+
+    .top-navbar ul{
+        justify-content: flex-end;
+    }
+
+    .postlist ul{
+        flex-wrap: nowrap;
+        width: 100%;
+    }
+
+    .boxnews p{
+        display: inline-block;
+    }
+
+    .boxnews a{
+        padding: 0.5%;
+    }
+
+    .animelist-pages ul{
+        flex-wrap: nowrap;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    .header-pages{
+        display: flex;
+        justify-content: center;
+        font-family: 'Lobster', cursive;
+        color: #F4DECB;
+        justify-content: space-around;
+        }
+    
+        .top-navbar{
+            margin-bottom: 5em;
+        }
+    
+        .top-navbar ul{
+            justify-content: flex-end;
+        }
+
+        .boxnews a{
+            padding: 0.5%;
+        }
+    
+        .postlist ul{
+            flex-wrap: nowrap;
+            width: 100%;
+        }
+}
