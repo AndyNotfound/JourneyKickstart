@@ -1,0 +1,134 @@
+/* global adjustment */
+@media(min-width:480px){}
+
+body{
+    background-color: mintcream;
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: normal;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* navigation bar */
+#top-navbar{
+    background-color:  rgb(131, 240, 131);
+    padding: 0.5%;
+}
+
+#top-navbar ul{
+    list-style: none;
+    display: flex;
+}
+
+#top-navbar a{
+    font-size: 20px;
+    padding-left: 1em;
+}
+
+/* blog post */
+.container-1{
+    margin: auto;
+    margin-top: 1em;
+    background-color: rgb(221, 208, 208);
+}
+
+.container-1 h2{
+    padding: 1em;
+    padding-bottom: 0em;
+    color:  rgb(86, 236, 86);
+}
+    
+.service-1{
+    display: flex;
+    box-sizing: border-box;
+}
+
+.servicelist{
+    border: dotted 1px black;
+    border-radius: 1em;
+    padding: 1em;
+    margin: 1em;
+}
+
+.servicelist h3{
+    color: rgb(86, 236, 86);
+}
+
+.read{
+    background-color: rgb(131, 240, 131);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.container-2{
+    margin: auto;
+    margin-top: 1em;
+}
+
+#team h2{
+    margin: 1em;
+}
+.team-1{
+}
+
+.teamlist{
+    border: dotted 1px  rgb(131, 240, 131);
+    padding: 1em;
+    margin: 1em;
+}
+
+.teamlist h3{
+    color:  rgb(131, 240, 131);
+}
+
+.teamlist img{
+    width: 150px;
+    height: auto;
+}
+
+/* footer */
+.container-3{
+    background-color: rgb(131, 240, 131);
+    padding: 1em;
+    padding-bottom: 0.1 em;
+    text-align: center;
+}
+
+#main-footer, #main-footer a{
+    color:black;
+}
+
+.lajur {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* For mobile phones: */
+
+.kolom {
+  width: 100%
+}
+
+@media only screen and (min-width: 768px) {
+  /* For tablets: */
+  .kolom {
+     width: 50%
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  /* For desktop: */
+  .kolom {
+     width: 33%
+  }
+}
+
+@media only screen and (min-width: 1152px) {
+  /* For widescreen: */
+  .kolom {
+     width: 20%
+  }
+}
