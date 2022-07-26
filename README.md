@@ -1,5 +1,5 @@
 # Kickstarting My Journey
-This repository contains the very first website that I made, my practice file, all of them. It's quite lame but I'm glad I started it.<br><br>
+This repository contains the very first website that I made, my practice file, all of them. It's quite lame but I'm glad I started it.<br>
 
 And apparently after the exam, I started learning how to do deface, and web penetration, and make some deface script. What a fool I was back then.
 <br><br>
